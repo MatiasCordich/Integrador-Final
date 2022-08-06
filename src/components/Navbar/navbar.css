@@ -1,0 +1,73 @@
+@import url(../../styles/variables.css);
+
+.header,
+.navbar{
+    width: 100%;
+    height: 100%;
+    padding: .5rem;
+}
+
+.navbar{
+    background-color: #FEF9A7;
+    background-image:
+        linear-gradient(90deg, transparent 79px, #DA1212 79px, #DA1212 81px, transparent 81px),
+        linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.links{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2rem;
+    padding: .5rem;
+    height: 0;
+}
+
+.show-links{
+    height: 100%;
+}
+
+.links li a{
+    color: var(--black);
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.btn-open,
+.btn-close{
+    cursor: pointer;
+}
+
+@media (min-width: 990px) {
+    .btn-open,
+    .btn-close{
+        display: none;
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo{
+        width: 10%;
+    }
+
+    .links{
+        flex-direction: row;
+        padding-right: 5rem;
+        justify-content: flex-end;
+        gap: 2.5rem;
+        height: 100%;
+        width: 90%;
+    }
+}

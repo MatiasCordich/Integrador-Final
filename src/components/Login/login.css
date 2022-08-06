@@ -1,0 +1,63 @@
+@import url(../../styles/variables.css);
+
+.login-section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.login h2,
+.register h2{
+    padding: 1rem;
+    text-align: center;
+}
+
+.login form,
+.register form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 95%;
+}
+
+.login input,
+.register input{
+    padding: 1rem;
+    font-family: var(--font);
+}
+
+.login,
+.register{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+.login p,
+.register p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.login p span,
+.register p span{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login p span:hover,
+.register p span:hover{
+    transition: .6s all;
+    color: #EB1D36;
+}
+
+.login h3,
+.register h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+

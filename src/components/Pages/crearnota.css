@@ -1,0 +1,54 @@
+@import url(../../styles/variables.css);
+
+.crear-nota-box{
+    max-width: 50rem;
+    width: 95%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #FEFBF6;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 5rem;
+}
+
+.crear-nota-box h2{
+    letter-spacing: .2rem;
+    margin: 1rem 0;
+}
+
+.input-field{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.input-field input,
+.crear-nota-box button {
+    width: 100%;
+    height: 4rem;
+    padding: 0 .5rem;
+}
+
+.input-field input,
+.crear-nota-box textarea{
+    font-family: var(--font);
+}
+
+.crear-nota-box label{
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+.crear-nota-box textarea{
+    width: 100%;
+    height: 10rem;
+    resize: none;
+    padding: 1rem;
+}
+
+.crear-nota-box button{
+    cursor: pointer;
+    border: none;
+    letter-spacing: .2rem;
+    background: #EB1D36;
+    color: #fafafa;
+    font-size: 1.8rem;
+}

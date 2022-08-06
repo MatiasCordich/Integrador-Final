@@ -1,0 +1,70 @@
+.nota-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.card {
+    padding: 1rem;
+    max-width: 35rem;
+    width: 95%;
+    height: fit-content;
+    background-color: #FEFBF6;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.show-text{
+    height: 100%;
+}
+
+.delete-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background-color: #EB1D36;
+    border-radius: 50%;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.card-title {
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.text-box {
+    width: 100%;
+    height: 20rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.date {
+    text-align: right;
+}
+
+.user-text{
+    font-weight: 600;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    letter-spacing: .2rem;
+    font-size: 1.5rem;
+}
